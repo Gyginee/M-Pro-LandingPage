@@ -1,0 +1,580 @@
+<!doctype html>
+
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>M-PRO</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="/images/pngMPRO.png" type="image/png">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+
+    <!--====== animate css ======-->
+    <link rel="stylesheet" href="/css/animate.min.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="/css/slick.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+
+<body class="bg-white">
+
+    <!-- LOADER -->
+    <div class="preloader">
+        <div class="precontainer">
+            <div class="📦"></div>
+            <div class="📦"></div>
+            <div class="📦"></div>
+            <div class="📦"></div>
+            <div class="📦"></div>
+        </div>
+    </div>
+    <!-- END LOADER -->
+
+    <!--====== HEADER PART START ======-->
+
+    <header id="home" class="header-area header-9-area">
+        <div class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="navigation">
+                            <nav class="navbar navbar-expand-lg navbar-light ">
+
+                                <a class="navbar-brand" href=""><img src="/images/pngMPRO.png" alt=""></a>
+                                <!-- logo -->
+
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                </button> <!-- navbar toggler -->
+
+                                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#home">
+                                                <%= i18n.__('navHome') %>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#team">
+                                                <%= i18n.__('navTeam') %>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#service">
+                                                <%= i18n.__('navService') %>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#brand">
+                                                <%= i18n.__('navClient') %>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <div class="nav-link">
+                                                <a href="#" onclick="changeLanguage('en')">English</a> <span>/</span> <a
+                                                    href="#" onclick="changeLanguage('vn')">Vietnamese</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div> <!-- navbar collapse -->
+                            </nav>
+                        </div> <!-- navigation -->
+                    </div>
+                </div> <!-- row -->
+            </div>
+        </div>
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== HERO PART START ======-->
+
+    <section class="hero-9-area">
+        <div class="section__bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero-9-content">
+                        <h3 class="title">
+                            <%= i18n.__('heroTitle') %>
+                        </h3>
+                        <span>
+                            <%= i18n.__('heroSpan') %>
+                        </span>
+                        <a class="main-btn" href="#">
+                            <%= i18n.__('heroButton') %>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-thumb">
+            <img src="/images/hero-thumb-9.png" alt="hero">
+        </div>
+    </section>
+
+    <!--====== HERO PART ENDS ======-->
+
+    <!--====== OVERVIEW PART START ======-->
+
+    <section id="team" class="overview-area overview-7-area  mt-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-9">
+                    <div class="section-title-9 text-center">
+                        <h3 class="title">
+                            <%= i18n.__('overTitle') %>
+                        </h3>
+                        <div class="text">
+                            <p>
+                                <%= i18n.__('overText') %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="overview-counter-item mt-30 animated wow fadeInUp" data-wow-duration="1000ms"
+                        data-wow-delay="0ms">
+                        <div class="icon">
+                            <img src="/images/overview-1.png" alt="">
+                        </div>
+                        <h3 class="title"><span class="count">
+                                <%= i18n.__('exNum') %>
+                            </span>+</h3>
+                        <span>
+                            <%= i18n.__('exTitle') %>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="overview-counter-item mt-30 animated wow fadeInUp" data-wow-duration="1000ms"
+                        data-wow-delay="300ms">
+                        <div class="icon">
+                            <img src="/images/overview-2.png" alt="">
+                        </div>
+                        <h3 class="title"><span class="count">
+                                <%= i18n.__('proNum') %>
+                            </span>+</h3>
+                        <span>
+                            <%= i18n.__('proTitle') %>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="overview-counter-item mt-30 animated wow fadeInUp" data-wow-duration="1000ms"
+                        data-wow-delay="600ms">
+                        <div class="icon">
+                            <img src="/images/overview-3.png" alt="">
+                        </div>
+                        <h3 class="title count">
+                            <%= i18n.__('awardNum') %>
+                        </h3>
+                        <span>
+                            <%= i18n.__('awardTitle') %>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="overview-counter-item mt-30 animated wow fadeInUp" data-wow-duration="1000ms"
+                        data-wow-delay="900ms">
+                        <div class="icon">
+                            <img src="/images/overview-4.png" alt="">
+                        </div>
+                        <h3 class="title"><span class="count">
+                                <%= i18n.__('socialNum') %>
+                            </span></h3>
+                        <span>
+                            <%= i18n.__('socialTitle') %>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== OVERVIEW PART ENDS ======-->
+
+    <!--====== SERVICE PART START ======-->
+
+    <section id="service" class="service-9-area pb-100 mt-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-14 col-md-9">
+                    <div class="section-title-9 text-center">
+                        <h3 class="title">
+                            <%= i18n.__('serviceTitle') %>
+                        </h3>
+                        <div class="text">
+                            <p>
+                                <%= i18n.__('serviceText') %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="service-item  service-9-item mt-30 animated wow fadeInLeft" data-wow-duration="1000ms"
+                        data-wow-delay="0ms">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="44.286" height="50" viewBox="0 0 44.286 50">
+                                <defs>
+                                    <linearGradient x1="0.962" y1="1.076" x2="0.024" y2="-0.094"
+                                        gradientUnits="objectBoundingBox">
+                                        <stop offset="0.02" stop-color="#45108a" />
+                                        <stop offset="0.293" stop-color="#3d065f" />
+                                        <stop offset="1" stop-color="#12054e" />
+                                        <stop offset="1" stop-color="#10054d" />
+                                    </linearGradient>
+                                </defs>
+                                <path data-name="Union 6"
+                                    d="M-1644.982,50V41.689h3.593a46.853,46.853,0,0,0,4.9-13.213h-10.016l1.524,1.523-1.289,1.288L-1650,27.561l3.728-3.728,1.289,1.289-1.532,1.532h10.38a58.26,58.26,0,0,0,.874-9.449h-3.341V12.362h3.044L-1640.629,0h8.054V3.454h1.654V0h5.215V3.454h1.654V0H-1616l-5.07,12.362h3.044V17.2h-3.341a58.245,58.245,0,0,0,.874,9.449h4.512l2.443-2.443h7.823l-3.351,3.35,3.351,3.35h-7.823l-2.434-2.435h-4.164a46.863,46.863,0,0,0,4.9,13.213h3.593V50Zm1.792-1.822h29.755V43.511h-29.755Zm3.837-6.488h22.082a49.18,49.18,0,0,1-4.688-13.213h-2.09a4.354,4.354,0,0,1-4.256,3.438,4.356,4.356,0,0,1-4.355-4.356,4.354,4.354,0,0,1,4.355-4.354,4.351,4.351,0,0,1,4.259,3.45h1.743a60.111,60.111,0,0,1-.846-9.322h-10.328A53.392,53.392,0,0,1-1639.354,41.689Zm25.044-14.128,1.527,1.527h2.667l-1.527-1.527,1.527-1.527h-2.667Zm-7.06-12.012v0h1.572V14.016h-17.033v1.535h1.573v0Zm-12.379-3.46h10.869l4.231-10.317h-3.624V5.225h-5.216V1.771h-1.653V5.225h-5.216V1.771h-3.623Z"
+                                    transform="translate(1650)" fill="url(#linear-gradient)" />
+                            </svg>
+                        </div>
+                        <h3 class="title">
+                            <%= i18n.__('s1Title') %>
+                        </h3>
+                        <p>
+                            <%= i18n.__('s1Text') %>
+                        </p>
+
+                        <div class="service-dot">
+                            <img src="/images/service-dot.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="service-item  service-9-item mt-30 animated wow fadeInUp" data-wow-duration="1000ms"
+                        data-wow-delay="300ms">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="54.772" height="41" viewBox="0 0 54.772 41">
+                                <defs>
+                                    <linearGradient x1="0.962" y1="1.076" x2="0.024" y2="-0.094"
+                                        gradientUnits="objectBoundingBox">
+                                        <stop offset="0.02" stop-color="#45108a" />
+                                        <stop offset="0.293" stop-color="#3d065f" />
+                                        <stop offset="1" stop-color="#12054e" />
+                                        <stop offset="1" stop-color="#10054d" />
+                                    </linearGradient>
+                                </defs>
+                                <path data-name="Union 27"
+                                    d="M-1644.021,21.72a13.906,13.906,0,0,1-4.045-7.081H-1650V9.759h1.854A12.389,12.389,0,0,1-1636.063,0a12.422,12.422,0,0,1,11.476,7.757A12.425,12.425,0,0,1-1613.11,0a12.388,12.388,0,0,1,12.082,9.759h1.854v4.88h-1.933a13.908,13.908,0,0,1-4.045,7.08l-.82.814-1.16-1.15.82-.813a12.485,12.485,0,0,0,3.525-5.931h-1.307V9.759h1.385a10.749,10.749,0,0,0-10.4-8.132,10.749,10.749,0,0,0-10.4,8.132h1.384v1.955h9.323v1.172h-9.323v1.752h-4.919V12.886h-8.784V11.714h8.784V9.759h1.385a10.75,10.75,0,0,0-10.4-8.132,10.749,10.749,0,0,0-10.4,8.132h1.384v4.88h-1.307a12.481,12.481,0,0,0,3.526,5.932l18.276,18.129,9.257-9.184,1.159,1.15L-1624.587,41Zm41.567-8.708h1.64V11.386h-1.64Zm-22.953,0h1.64V11.386h-1.64Zm-22.953,0h1.64V11.386h-1.64Zm39.023,25.872-6.8-18.3,18.445,6.741,2.46,1.016-10.649,2.419-2.694,10.172Zm.543-3.244,1.567-6.219,6.268-1.555-12.407-4.536ZM-1625.2,32.8V30.457h1.771V32.8Zm0-4.686V25.771h1.771v2.343Zm0-5.271V21.086h1.771v1.757Z"
+                                    transform="translate(1650)" fill="url(#linear-gradient)" />
+                            </svg>
+
+                        </div>
+                        <h3 class="title">
+                            <%= i18n.__('s2Title') %>
+                        </h3>
+                        <p>
+                            <%= i18n.__('s2Text') %>
+                        </p>
+
+                        <div class="service-dot">
+                            <img src="/images/service-dot.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="service-item item-3 service-9-item mt-30 animated wow fadeInRight"
+                        data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="44.34" height="39" viewBox="0 0 44.34 39">
+                                <defs>
+                                    <linearGradient id="linear-gradient" x1="0.962" y1="1.076" x2="0.024" y2="-0.094"
+                                        gradientUnits="objectBoundingBox">
+                                        <stop offset="0.02" stop-color="#45108a" />
+                                        <stop offset="0.293" stop-color="#3d065f" />
+                                        <stop offset="1" stop-color="#12054e" />
+                                        <stop offset="1" stop-color="#10054d" />
+                                    </linearGradient>
+                                </defs>
+                                <path data-name="Union 24"
+                                    d="M4.915,39A4.913,4.913,0,0,1,0,34.1V4.9A4.913,4.913,0,0,1,4.915,0H39.424A4.913,4.913,0,0,1,44.34,4.9V34.1A4.913,4.913,0,0,1,39.424,39ZM1.464,34.1a3.45,3.45,0,0,0,3.451,3.441H39.424A3.45,3.45,0,0,0,42.876,34.1V11.685H1.464ZM42.876,10.226V4.9a3.45,3.45,0,0,0-3.451-3.44H4.915A3.45,3.45,0,0,0,1.464,4.9v5.327ZM20.341,31.371a.729.729,0,0,1-.566-.864l2.952-13.974a.732.732,0,0,1,1.432.3L21.208,30.807a.732.732,0,0,1-.715.58A.751.751,0,0,1,20.341,31.371Zm5.946-3.257a.728.728,0,0,1,.083-1.028l4.082-3.466-4.082-3.465a.73.73,0,1,1,.948-1.111l4.737,4.021a.728.728,0,0,1,0,1.111L27.319,28.2a.732.732,0,0,1-1.031-.083ZM17.02,28.2l-4.737-4.021a.728.728,0,0,1,0-1.111l4.737-4.021a.731.731,0,1,1,.949,1.111l-4.082,3.465,4.082,3.466A.731.731,0,0,1,17.02,28.2Zm.288-22.29a2.317,2.317,0,1,1,2.317,2.31A2.316,2.316,0,0,1,17.308,5.906Zm1.465,0a.852.852,0,1,0,.852-.85A.852.852,0,0,0,18.773,5.906ZM10.19,5.884a2.317,2.317,0,1,1,2.317,2.309A2.316,2.316,0,0,1,10.19,5.884Zm1.464,0a.853.853,0,1,0,.853-.85A.853.853,0,0,0,11.654,5.884ZM3.073,5.862a2.317,2.317,0,1,1,2.317,2.31A2.316,2.316,0,0,1,3.073,5.862Zm1.465,0a.852.852,0,1,0,.852-.85A.852.852,0,0,0,4.537,5.862Z"
+                                    fill="url(#linear-gradient)" />
+                            </svg>
+                        </div>
+                        <h3 class="title">
+                            <%= i18n.__('s3Title') %>
+                        </h3>
+                        <p>
+                            <%= i18n.__('s3Text') %>
+                        </p>
+
+                        <div class="service-dot">
+                            <img src="/images/service-dot.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="service-item item-3 service-9-item mt-30 animated wow fadeInLeft"
+                        data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="44.34" height="39" viewBox="0 0 44.34 39">
+                                <defs>
+                                    <linearGradient id="linear-gradient" x1="0.962" y1="1.076" x2="0.024" y2="-0.094"
+                                        gradientUnits="objectBoundingBox">
+                                        <stop offset="0.02" stop-color="#45108a" />
+                                        <stop offset="0.293" stop-color="#3d065f" />
+                                        <stop offset="1" stop-color="#12054e" />
+                                        <stop offset="1" stop-color="#10054d" />
+                                    </linearGradient>
+                                </defs>
+                                <path data-name="Union 24"
+                                    d="M4.915,39A4.913,4.913,0,0,1,0,34.1V4.9A4.913,4.913,0,0,1,4.915,0H39.424A4.913,4.913,0,0,1,44.34,4.9V34.1A4.913,4.913,0,0,1,39.424,39ZM1.464,34.1a3.45,3.45,0,0,0,3.451,3.441H39.424A3.45,3.45,0,0,0,42.876,34.1V11.685H1.464ZM42.876,10.226V4.9a3.45,3.45,0,0,0-3.451-3.44H4.915A3.45,3.45,0,0,0,1.464,4.9v5.327ZM20.341,31.371a.729.729,0,0,1-.566-.864l2.952-13.974a.732.732,0,0,1,1.432.3L21.208,30.807a.732.732,0,0,1-.715.58A.751.751,0,0,1,20.341,31.371Zm5.946-3.257a.728.728,0,0,1,.083-1.028l4.082-3.466-4.082-3.465a.73.73,0,1,1,.948-1.111l4.737,4.021a.728.728,0,0,1,0,1.111L27.319,28.2a.732.732,0,0,1-1.031-.083ZM17.02,28.2l-4.737-4.021a.728.728,0,0,1,0-1.111l4.737-4.021a.731.731,0,1,1,.949,1.111l-4.082,3.465,4.082,3.466A.731.731,0,0,1,17.02,28.2Zm.288-22.29a2.317,2.317,0,1,1,2.317,2.31A2.316,2.316,0,0,1,17.308,5.906Zm1.465,0a.852.852,0,1,0,.852-.85A.852.852,0,0,0,18.773,5.906ZM10.19,5.884a2.317,2.317,0,1,1,2.317,2.309A2.316,2.316,0,0,1,10.19,5.884Zm1.464,0a.853.853,0,1,0,.853-.85A.853.853,0,0,0,11.654,5.884ZM3.073,5.862a2.317,2.317,0,1,1,2.317,2.31A2.316,2.316,0,0,1,3.073,5.862Zm1.465,0a.852.852,0,1,0,.852-.85A.852.852,0,0,0,4.537,5.862Z"
+                                    fill="url(#linear-gradient)" />
+                            </svg>
+                        </div>
+                        <h3 class="title">
+                            <%= i18n.__('s4Title') %>
+                        </h3>
+                        <p>
+                            <%= i18n.__('s4Text') %>
+                        </p>
+                        <div class="service-dot">
+                            <img src="/images/service-dot.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="service-item item-3 service-9-item mt-30 animated wow fadeInUp"
+                        data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="44.34" height="39" viewBox="0 0 44.34 39">
+                                <defs>
+                                    <linearGradient id="linear-gradient" x1="0.962" y1="1.076" x2="0.024" y2="-0.094"
+                                        gradientUnits="objectBoundingBox">
+                                        <stop offset="0.02" stop-color="#45108a" />
+                                        <stop offset="0.293" stop-color="#3d065f" />
+                                        <stop offset="1" stop-color="#12054e" />
+                                        <stop offset="1" stop-color="#10054d" />
+                                    </linearGradient>
+                                </defs>
+                                <path data-name="Union 24"
+                                    d="M4.915,39A4.913,4.913,0,0,1,0,34.1V4.9A4.913,4.913,0,0,1,4.915,0H39.424A4.913,4.913,0,0,1,44.34,4.9V34.1A4.913,4.913,0,0,1,39.424,39ZM1.464,34.1a3.45,3.45,0,0,0,3.451,3.441H39.424A3.45,3.45,0,0,0,42.876,34.1V11.685H1.464ZM42.876,10.226V4.9a3.45,3.45,0,0,0-3.451-3.44H4.915A3.45,3.45,0,0,0,1.464,4.9v5.327ZM20.341,31.371a.729.729,0,0,1-.566-.864l2.952-13.974a.732.732,0,0,1,1.432.3L21.208,30.807a.732.732,0,0,1-.715.58A.751.751,0,0,1,20.341,31.371Zm5.946-3.257a.728.728,0,0,1,.083-1.028l4.082-3.466-4.082-3.465a.73.73,0,1,1,.948-1.111l4.737,4.021a.728.728,0,0,1,0,1.111L27.319,28.2a.732.732,0,0,1-1.031-.083ZM17.02,28.2l-4.737-4.021a.728.728,0,0,1,0-1.111l4.737-4.021a.731.731,0,1,1,.949,1.111l-4.082,3.465,4.082,3.466A.731.731,0,0,1,17.02,28.2Zm.288-22.29a2.317,2.317,0,1,1,2.317,2.31A2.316,2.316,0,0,1,17.308,5.906Zm1.465,0a.852.852,0,1,0,.852-.85A.852.852,0,0,0,18.773,5.906ZM10.19,5.884a2.317,2.317,0,1,1,2.317,2.309A2.316,2.316,0,0,1,10.19,5.884Zm1.464,0a.853.853,0,1,0,.853-.85A.853.853,0,0,0,11.654,5.884ZM3.073,5.862a2.317,2.317,0,1,1,2.317,2.31A2.316,2.316,0,0,1,3.073,5.862Zm1.465,0a.852.852,0,1,0,.852-.85A.852.852,0,0,0,4.537,5.862Z"
+                                    fill="url(#linear-gradient)" />
+                            </svg>
+                        </div>
+                        <h3 class="title">
+                            <%= i18n.__('s5Title') %>
+                        </h3>
+                        <p>
+                            <%= i18n.__('s5Text') %>
+                        </p>
+
+                        <div class="service-dot">
+                            <img src="/images/service-dot.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="service-item item-3 service-9-item mt-30 animated wow fadeInRight"
+                        data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="44.34" height="39" viewBox="0 0 44.34 39">
+                                <defs>
+                                    <linearGradient id="linear-gradient" x1="0.962" y1="1.076" x2="0.024" y2="-0.094"
+                                        gradientUnits="objectBoundingBox">
+                                        <stop offset="0.02" stop-color="#45108a" />
+                                        <stop offset="0.293" stop-color="#3d065f" />
+                                        <stop offset="1" stop-color="#12054e" />
+                                        <stop offset="1" stop-color="#10054d" />
+                                    </linearGradient>
+                                </defs>
+                                <path data-name="Union 24"
+                                    d="M4.915,39A4.913,4.913,0,0,1,0,34.1V4.9A4.913,4.913,0,0,1,4.915,0H39.424A4.913,4.913,0,0,1,44.34,4.9V34.1A4.913,4.913,0,0,1,39.424,39ZM1.464,34.1a3.45,3.45,0,0,0,3.451,3.441H39.424A3.45,3.45,0,0,0,42.876,34.1V11.685H1.464ZM42.876,10.226V4.9a3.45,3.45,0,0,0-3.451-3.44H4.915A3.45,3.45,0,0,0,1.464,4.9v5.327ZM20.341,31.371a.729.729,0,0,1-.566-.864l2.952-13.974a.732.732,0,0,1,1.432.3L21.208,30.807a.732.732,0,0,1-.715.58A.751.751,0,0,1,20.341,31.371Zm5.946-3.257a.728.728,0,0,1,.083-1.028l4.082-3.466-4.082-3.465a.73.73,0,1,1,.948-1.111l4.737,4.021a.728.728,0,0,1,0,1.111L27.319,28.2a.732.732,0,0,1-1.031-.083ZM17.02,28.2l-4.737-4.021a.728.728,0,0,1,0-1.111l4.737-4.021a.731.731,0,1,1,.949,1.111l-4.082,3.465,4.082,3.466A.731.731,0,0,1,17.02,28.2Zm.288-22.29a2.317,2.317,0,1,1,2.317,2.31A2.316,2.316,0,0,1,17.308,5.906Zm1.465,0a.852.852,0,1,0,.852-.85A.852.852,0,0,0,18.773,5.906ZM10.19,5.884a2.317,2.317,0,1,1,2.317,2.309A2.316,2.316,0,0,1,10.19,5.884Zm1.464,0a.853.853,0,1,0,.853-.85A.853.853,0,0,0,11.654,5.884ZM3.073,5.862a2.317,2.317,0,1,1,2.317,2.31A2.316,2.316,0,0,1,3.073,5.862Zm1.465,0a.852.852,0,1,0,.852-.85A.852.852,0,0,0,4.537,5.862Z"
+                                    fill="url(#linear-gradient)" />
+                            </svg>
+                        </div>
+                        <h3 class="title">
+                            <%= i18n.__('s6Title') %>
+                        </h3>
+                        <p>
+                            <%= i18n.__('s6Text') %>
+                        </p>
+
+                        <div class="service-dot">
+                            <img src="/images/service-dot.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== SERVICE PART ENDS ======-->
+
+    <!--====== BRAND 3 PART START ======-->
+
+    <section id="brand" class="brand-3-area mt-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-9">
+                    <div class="section-title-9 text-center">
+                        <h3 class="title">
+                            <%= i18n.__('brandTitle') %>
+                        </h3>
+                        <div class="text">
+                            <p>
+                                <%= i18n.__('brandText') %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-50">
+                <div class="col-lg-12">
+                    <div class="brand-3-items d-flex justify-content-between brand-slider" id="brandSlider">
+                        <!-- The brand items will be generated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== BRAND 3 PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+    <footer class="footer-area mt-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-top footer-top-9 d-block d-sm-flex  justify-content-between align-items-center">
+                        <div class="footer-logo">
+                            <a href="#"><img src="/images/pngMPRO.png" alt=""></a>
+                        </div>
+                        <div class="footer-social">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-item">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="footer-about mt-30">
+                            <h4 class="title">
+                                <%= i18n.__('footerTitle') %>
+                            </h4>
+                            <p>
+                                <%= i18n.__('footerText') %>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-info footer-info-9 mt-30">
+                            <h3 class="title">
+                                <%= i18n.__('footerCategoryTitle') %>
+                            </h3>
+                            <ul>
+                                <li><i class="fal fa-map-marker-alt"></i>
+                                    <%= i18n.__('footerAddress') %>
+                                </li>
+                                <li><i class="fal fa-phone"></i>
+                                    <%= i18n.__('footerPhone') %>
+                                </li>
+                                <li><i class="fal fa-envelope"></i>
+                                    <%= i18n.__('footerMail') %>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-copyright">
+                        <p>
+                            <%= i18n.__('credits') %>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TO TOP START ======-->
+
+    <a class="back-to-top back-to-top-11">
+        <i class="fal fa-angle-up"></i>
+    </a>
+
+    <!--====== BACK TO TOP ENDS ======-->
+
+    <!--====== jquery js ======-->
+    <script src="/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+
+    <!--====== appear js ======-->
+    <script src="/js/jquery.appear.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="/js/slick.min.js"></script>
+
+    <!--====== wow js ======-->
+    <script src="/js/wow.js"></script>
+
+    <!--====== Isotope js ======-->
+    <script src="/js/isotope.pkgd.min.js"></script>
+
+    <!--====== Images Loaded js ======-->
+    <script src="/js/imagesloaded.pkgd.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>
