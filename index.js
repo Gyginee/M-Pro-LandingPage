@@ -17,6 +17,7 @@ app.use((req, res, next) => {
     i18n.setLocaleFromCookie(req);
     next();
 });
+
 console.log('Current locale: ', i18n.getLocale());
 
 app.get('/setLanguage/:locale', (req, res) => {

@@ -33,6 +33,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+
 /* CHANGE LANG */
 function changeLanguage(locale) {
     fetch(`/setLanguage/${locale}`, { method: 'GET' })
