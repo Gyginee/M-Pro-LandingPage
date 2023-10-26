@@ -18,15 +18,15 @@
     "serviceTitle": "Dịch vụ của chúng tôi",
     "serviceText": "Là một agency chuyên nghiệp, M-PRO có khả năng cung cấp mọi loại dịch vụ về quảng cáo, đặc biệt là các hoạt động dưới đáy.",
     "s1Title": "Event",
-    "s1Text": "Chúng tôi biến thông điệp chính của bạn thành khái niệm, khái niệm thành hình ảnh, hình ảnh thành sự kiện và sự kiện thành kỷ niệm",
+    "s1Text": "Biến thông điệp thành khái niệm, khái niệm thành hình ảnh, hình ảnh thành sự kiện và sự kiện thành kỷ niệm",
     "s2Title": "Activation",
-    "s2Text": "Activation là điểm mạnh của chúng tôi. Với khả năng và kinh nghiệm của chúng tôi, khái niệm và quy mô không bao giờ là vấn đề của chúng tôi",
+    "s2Text": "Với khả năng và kinh nghiệm của chúng tôi, khái niệm và quy mô không bao giờ là vấn đề của chúng tôi",
     "s3Title": "Digital Marketing",
-    "s3Text": "Xây dựng giải pháp số như website, Goole Ads, giúp doanh nghiệp chiếm lĩnh thị phần trên nền tảng tiếp thị kỹ thuật số",
+    "s3Text": "Xây dựng giải pháp số giúp doanh nghiệp chiếm lĩnh thị phần trên nền tảng tiếp thị kỹ thuật số",
     "s4Title": "Production",
     "s4Text": "Với cửa hàng sản xuất nội bộ, chúng tôi có khả năng cung cấp sản xuất chất lượng nhất với giá cả cạnh tranh",
     "s5Title": "Merchandise",
-    "s5Text": "Tận dụng kiến thức và kinh nghiệm của chúng tôi, chúng tôi sẵn sàng đáp ứng nhu cầu về hàng hóa của bạn",
+    "s5Text": "Tận dụng kiến thức và kinh nghiệm, chúng tôi sẵn sàng đáp ứng mọi nhu cầu về hàng hóa của bạn",
     "s6Title": "Branding",
     "s6Text": "Giải pháp của chúng tôi giúp doanh nghiệp xây dựng thương hiệu mạnh mẽ, thúc đẩy cạnh tranh",
   
@@ -44,8 +44,6 @@
     "footerAddress": "Kiosque 1 đường Lương Hữu Khánh, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh, Việt Nam",
     "footerPhone": "(+84)942 123 123",
     "footerMail": "contact@m-pro.vn",
-  
-    "downloadButton" : "Thông tin về chúng tôi",
 
     "credits": "Bản quyền @ 2023 - Gyginee"
   }

@@ -32,7 +32,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+});
 
 /* CHANGE LANG */
 function changeLanguage(locale) {

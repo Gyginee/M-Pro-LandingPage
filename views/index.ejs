@@ -101,14 +101,19 @@
                                         <li class="nav-item">
                                             <div class="nav-link">
                                                 <!-- Language toggle link -->
-                                                <a href="#" onclick="changeLanguage('<%= i18n.getLocale() === 'en' ? 'vn' : 'en' %>'); return false;">
-                                                    <% if (i18n.getLocale() === 'vn') { %>
-                                                        <img class="flag" src="images/uk.svg" alt="UK Flag"  data-bs-toggle="tooltip" data-placement="bottom" title="ENG"/>
-                                                    <% } else if (i18n.getLocale() === 'en')  { %>
-                                                        <img class="flag" src="images/vietnam.svg" alt="Vietnam Flag"  data-bs-toggle="tooltip" data-placement="bottom" title="VNA" />
-                                                    <% } %>
+                                                <a href="#"
+                                                    onclick="changeLanguage('<%= i18n.getLocale() === 'en' ? 'vn' : 'en' %>'); return false;">
+                                                    <% if (i18n.getLocale()==='vn' ) { %>
+                                                        <img class="flag" src="images/uk.svg" alt="UK Flag"
+                                                            data-toggle="tooltip" data-placement="bottom"
+                                                            title="English" />
+                                                        <% } else if (i18n.getLocale()==='en' ) { %>
+                                                            <img class="flag" src="images/vietnam.svg"
+                                                                alt="Vietnam Flag" data-toggle="tooltip"
+                                                                data-placement="bottom" title="Vietnamese" />
+                                                            <% } %>
                                                 </a>
-                                                
+
 
                                             </div>
                                         </li>
@@ -138,7 +143,8 @@
                         <span>
                             <%= i18n.__('heroSpan') %>
                         </span>
-                        <a class="main-btn" href="#service">
+                        <a class="main-btn"
+                            href="https://drive.google.com/file/d/1bLnFBtgFMFXOmtOvXCmwZw7GPWFlwroe/view?usp=drive_link">
                             <%= i18n.__('heroButton') %>
                         </a>
                     </div>
@@ -371,6 +377,100 @@
 
     <!--====== SERVICE PART ENDS ======-->
 
+
+    <!--====== PROJECT PART START ======-->
+
+    <section id="portfolio-scroll" class="portfolio-style-1-area pt-70 pb-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="project-title text-center">
+                        <h3 class="title">Our Project</h3>
+                        <p>I help agencies & brands like Google, Volvo and others to turn their ideas into designs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-1.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product Design</h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-2.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product</h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-3.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product </h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-4.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product </h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-5.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product Design</h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="project-5-item mt-30">
+                                <img src="assets/images/project/project-6.png" alt="">
+                                <div class="project-overlay">
+                                    <h3 class="title">Digital Product</h3>
+                                    <span>Artist, Illustration</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="project-5-item mt-30">
+                                <img src="assets/images/project/project-7.png" alt="">
+                                <div class="project-overlay">
+                                    <h3 class="title">Digital Product </h3>
+                                    <span>Artist, Illustration</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-8.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product Design</h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== PROJECT PART ENDS ======-->
+
+
     <!--====== BRAND 3 PART START ======-->
 
     <section id="brand" class="brand-3-area mt-100">
@@ -399,6 +499,92 @@
         </div>
     </section>
 
+
+
+    <!--====== PORTFOLIO STYLE 1 PART START ======-->
+    
+    <div id="portfolio-scroll" class="portfolio-style-1-area pt-70 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-1.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product Design</h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-2.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product</h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-3.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product </h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-4.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product </h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-5.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product Design</h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="project-5-item mt-30">
+                                <img src="assets/images/project/project-6.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product</h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="project-5-item mt-30">
+                                <img src="assets/images/project/project-7.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product </h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="project-5-item mt-30">
+                        <img src="assets/images/project/project-8.png" alt="">
+                        <div class="project-overlay">
+                            <h3 class="title">Digital Product Design</h3>
+                            <span>Artist, Illustration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--====== PORTFOLIO STYLE 1 PART ENDS ======-->
+
+
     <!--====== BRAND 3 PART ENDS ======-->
 
 
@@ -421,14 +607,14 @@
                         <div class="footer-logo">
                             <a href="#"><img src="/images/pngMPRO.png" alt=""></a>
                         </div>
-                        <div class="footer-social">
+                        <!-- <div class="footer-social">
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -494,7 +680,7 @@
     <!--====== Bootstrap js ======-->
     <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-    
+
 
     <!--====== Font-Awesome js ======-->
     <script scr="/js/vendor/fontawesomepro.min.js"></script>
