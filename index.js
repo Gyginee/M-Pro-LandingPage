@@ -2,23 +2,23 @@ const express = require('express');
 const path = require('path');
 const i18n = require('./i18n');
 const ejs = require('ejs');
-const cookieParser = require('cookie-parser');  // Fix: Use cookie-parser
+const cookieParser = require('cookie-parser');
 
 const app = express();
-
 const PORT = process.env.PORT || 3000;
+
+app.use(i18n.init); // Initialize i18n middleware
 
 app.use(express.static(path.join(__dirname, 'views', 'assets')));
 
-app.use(cookieParser());  // Fix: Use cookie-parser
+app.use(cookieParser());
 
-// Use the i18n middleware to set the language from the cookie
 app.use((req, res, next) => {
     i18n.setLocaleFromCookie(req);
     next();
 });
 
-console.log('Current locale: ', i18n.getLocale());
+//console.log('Current locale: ', i18n.getLocale());
 
 app.get('/setLanguage/:locale', (req, res) => {
     const { locale } = req.params;
@@ -29,17 +29,37 @@ app.get('/setLanguage/:locale', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    // Render template EJS
     ejs.renderFile(path.join(__dirname, 'views/index.ejs'), { i18n }, (err, html) => {
         if (err) {
             return res.status(500).send('Error rendering HTML.');
         }
-
-        // Trả về HTML đã được render
         res.send(html);
     });
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+/* const http = require('http');
+const httpProxy = require('http-proxy');
+const targetHost = 'localhost';
+const targetPort = 3000;
+
+
+const proxy = httpProxy.createProxyServer({
+  target: `http://${targetHost}:${targetPort}`
 });
+
+const server = http.createServer((req, res) => {
+  proxy.web(req, res);
+});
+
+    //server.listen(3000, () => {
+    //console.log('Proxy server listening on port 3000');
+}); 
+ 
+app.listen(PORT, () => {
+    //console.log(`Server is running on port ${PORT}`);
+});
+*/
+app.listen(PORT, () => {
+    //console.log(`Server is running on port ${PORT}`);
+});
+module.exports = app;
